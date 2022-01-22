@@ -1,0 +1,64 @@
+#footer{
+    color: white;
+    background-color: #165241;
+}
+#footer p{
+    color: #a4bbb4;
+    text-align: justify;
+}
+#fraazodetail{
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+}
+#fraazodetail > div {
+   width: 25%;
+   padding: 20px;
+}
+#fraazodetail > div > p{
+    margin-top: 30px;
+    line-height: 25px;
+    font-size: 17px;
+ }
+#footerimg {
+    width: 100%;
+    background-color: white;
+}
+li > a {
+    font-size: 17px;
+    line-height: 40px;
+    color: #a4bbb4;
+    text-decoration: none;
+}
+li > a:hover{
+    text-decoration: underline;
+}
+li {
+    list-style-type: none;
+}
+#logo{
+width: 60%;
+cursor: pointer;
+}
+#upperpara {
+    font-size: 37px;
+    margin-left: 40px;
+    color: white;
+}
+#lowerpara {
+    margin: 40px;
+}
+#copyrights{
+    padding: 10px 0px 10px 37%;
+    font-size: 18px;
+}
+h3 {
+    font-size: 20px;
+}
+#app > img {
+  cursor: pointer; 
+}
+
+
+
+

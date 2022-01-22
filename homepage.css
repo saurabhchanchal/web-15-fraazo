@@ -1,0 +1,165 @@
+body {
+    background-color: #ffffff;
+}
+#basket {
+    width: 90%;
+    margin: auto;
+}
+
+#mainpage {
+    margin: auto;
+    display: flex;
+    border: 1px solid Red transparent;
+    width: 90%;
+    padding: 10px 40px;
+    background-color: white
+ }
+ 
+ .rightbox > div{
+     margin-top: 20px;
+ }
+ img{
+     border-radius: 12px;
+ }
+ .leftbox {
+     width: 69%;
+     margin-right: 2%;
+ }
+ .rightbox {
+     width: 29%;
+     margin-top: -5px;
+ }
+ #bestdeals {
+     border: 1px solid blue transparent ;
+     display: grid;
+     grid-template-columns: repeat(5,1fr);
+     grid-template-rows: 415px;
+     grid-gap: 20px;
+     border-radius: 10px;
+ }
+ #vegetables {
+    border: 1px solid blue transparent;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 415px;
+    grid-gap: 20px;
+    border-radius: 10px;
+}
+#fruits {
+    border: 1px solid blue transparent;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 415px;
+    grid-gap: 20px;
+    border-radius: 10px;
+}
+#herbs {
+    border: 1px solid blue transparent ;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 415px;
+    grid-gap: 20px;
+    border-radius: 10px;
+}
+#dryfruits {
+    border: 1px solid blue transparent;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 415px;
+    grid-gap: 20px;
+    border-radius: 10px;
+}
+#hydrophonics {
+    border: 1px solid blue transparent;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 415px;
+    grid-gap: 20px;
+    border-radius: 10px;
+}
+#dairy {
+    border: 1px solid blue transparent ;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 415px;
+    grid-gap: 20px;
+    border-radius: 10px;
+}
+ 
+h1 {
+    font-weight: normal;
+    color: #7797be;
+}
+#basket > div {
+    margin-top: 20px;
+}
+.price {
+    margin-top: 40px;
+    margin-left: 10px;
+    border: 1px solid red transparent;
+    display: grid;
+    grid-template-columns: repeat(2,80px);
+    grid-template-rows: 50px;
+    grid-gap: 20px;
+    justify-content: space-between;
+}
+.price > div:first-child {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 50px;
+}
+button {
+    cursor: pointer;
+    color: #5dc6ad;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+button:hover {
+    background-color: #5dc6ad;
+    color: white;
+}
+.orginalprice {
+    color: gray;
+    font-size: 17px;
+    text-decoration: line-through;
+}
+.discountprice {
+    font-size: 17px;
+    font-weight: bold;
+}
+p {
+    font-size: 18px;
+    margin-left: 10px;
+}
+.smallimage > img{
+    background-color: #f9f9f9;
+    width: 100%;
+}
+.imagebox{
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.imagebox:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px,
+     rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.animation {
+    margin: auto;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+#category_of_fruits_and_veg {
+    border: 1px solid blue transparent;
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: 415px;
+    grid-gap: 50px;
+    border-radius: 10px;
+}
+#category_of_fruits_and_veg > div {
+    cursor: pointer;
+}

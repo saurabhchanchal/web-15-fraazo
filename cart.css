@@ -1,0 +1,38 @@
+
+
+#container {
+    border: 1px solid blue transparent;
+    background-color: gray;
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* grid-template-rows: repeat(); */
+    gap: 20px;
+}
+#container > div {
+    border: 1px solid teal transparent;
+    background-color: snow;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+#flex {
+    display: flex;
+    border: 1px solid red transparent;
+    justify-content: space-around;
+}
+img {
+    border: 1px solid red transparent;
+    margin-left: 40px;
+}
+p {
+    font-size: 20px;
+    padding: 0px 0px 0px 20px;
+}
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-left: 120px;
+    background-color: blue;
+    color: white;
+}
