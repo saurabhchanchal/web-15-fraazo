@@ -17,7 +17,7 @@ document.getElementById("Sign").addEventListener("click",function(){
 })
 
 document.getElementById("image").addEventListener("click",function(){
-    window.location.href="home.html"
+    window.location.href="index.html"
 })
 
 document.getElementById("vegCat").addEventListener("click",function(){
